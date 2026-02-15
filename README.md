@@ -84,7 +84,7 @@ mkdir -p dataset
 sh scripts/run_ett.sh
 
 # Example: run short-term electricity price forecasting
-sh scripts/run_epf.sh
+sh examples/time_series_forecast/run_qwen3-1.7B.sh
 ```
 
 

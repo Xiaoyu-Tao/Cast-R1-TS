@@ -1,0 +1,14 @@
+# AgentRFT PPO Trainer config
+# Extends verl ppo_trainer.yaml, overrides as needed
+
+defaults:
+  - ppo_trainer
+
+  - /overrides/rollout@actor_rollout_ref.rollout
+
+  - _self_
+# actor_rollout_ref:
+#   rollout:
+#     agent:
+#       num_workers: 16
+

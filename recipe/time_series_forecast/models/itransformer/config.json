@@ -1,0 +1,14 @@
+{
+    "model_name": "iTransformer",
+    "seq_len": 96,
+    "pred_len": 96,
+    "enc_in": 1,
+    "d_model": 128,
+    "n_heads": 8,
+    "e_layers": 2,
+    "d_ff": 128,
+    "dropout": 0.0,
+    "features": "S",
+    "target": "OT",
+    "description": "iTransformer model trained on ETTh1 dataset (Time-Series-Library). Non-stationary Transformer normalization built-in."
+}
